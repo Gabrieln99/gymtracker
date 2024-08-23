@@ -24,7 +24,7 @@
 export default {
   methods: {
     goToNextPage() {
-      this.$router.push("/personalData");
+      this.$router.push("/login");
     },
   },
 };
