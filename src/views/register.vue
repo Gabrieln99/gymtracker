@@ -46,7 +46,7 @@
       v-model="repeatPassword"
       type="password"
       id="reinputPassword5"
-      class="form-control"
+      class="form-control" 
       aria-describedby="passwordHelpBlock"
     />
     <button

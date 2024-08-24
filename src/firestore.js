@@ -1,6 +1,19 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, doc, setDoc } from "firebase/firestore";
-import { getAuth, createUserWithEmailAndPassword,onAuthStateChanged,signOut,signInWithEmailAndPassword  } from "firebase/auth";
+import {
+  getFirestore,
+  doc,
+  setDoc,
+  getDocs,
+  query,
+  collectionGroup,
+} from "firebase/firestore";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyAoLOfTQhTIsoYl0IghVzIV9zIRYPxg9-I",
   authDomain: "gymtracker-995c8.firebaseapp.com",
@@ -13,4 +26,17 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export { getFirestore, doc, setDoc, db ,getAuth, createUserWithEmailAndPassword,onAuthStateChanged,signOut,signInWithEmailAndPassword };
+export {
+  getFirestore,
+  doc,
+  setDoc,
+  getDocs,
+  db,
+  getAuth,
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut,
+  signInWithEmailAndPassword,
+  query,
+  collectionGroup,
+};
