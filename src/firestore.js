@@ -4,7 +4,9 @@ import {
   doc,
   setDoc,
   getDocs,
+  collection,
   query,
+  where,
   collectionGroup,
 } from "firebase/firestore";
 import {
@@ -32,6 +34,8 @@ export {
   setDoc,
   getDocs,
   db,
+  collection,
+  where,
   getAuth,
   createUserWithEmailAndPassword,
   onAuthStateChanged,

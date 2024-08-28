@@ -1,6 +1,10 @@
 <template>
+  <div>
+    <div class="pozadina">
+      <img src="@/components/wallpapergym.jpg" alt="" />
+    </div>
   <div
-    class="w-50 container position-absolute top-50 start-50 translate-middle text-center bg-secondary p-3 rounded"
+    class="w-75 container position-absolute top-50 start-50 translate-middle text-center bg-secondary p-3 rounded"
   >
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label"
@@ -41,6 +45,7 @@
       Back
     </button>
   </div>
+</div>
 </template>
 <script>
 import store from "@/store";

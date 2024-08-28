@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div>
+  <div class="p-1">
 <button v-if="User" @click="signOuts" class="btn btn-secondary">ODJAVA</button>
     <RouterView />
   </div>
