@@ -60,12 +60,13 @@ o Odjava: Korisnici se mogu odjaviti iz aplikacije kad god to požele.
 o Navigacija: Korisnici mogu koristiti navigacijske funkcionalnosti aplikacije za 
 prijelaz između različitih stranica i funkcionalnosti (npr. s početne stranice 
 na stranicu za prijavu ili registraciju).
-- Link na javni prototip
-- Zaduženja (planirana) po članu tima - ovaj dio commita svaki član tima za sebe.
+
+- Link na javni prototip : https://www.figma.com/design/4uTLsNUW4EVANvx4gRW8Cr/GymTracker?node-id=0-1&node-type=CANVAS&t=fNEMAN3TL9HQt70w-0
 
 - Zaduženja (planirana) po članu tima - Gabriel Nadal izrađuje i implementira aplikaciju
 
 
 
 link na aplikaciju: https://main--spontaneous-malabi-c32a80.netlify.app/
+
 
